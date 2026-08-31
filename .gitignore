@@ -1,0 +1,19 @@
+# Local overrides — never commit these
+claude/CLAUDE.local.md
+**/CLAUDE.local.md
+
+# Student outputs — workspace-specific, not part of the template
+**/outputs/*
+!**/outputs/.gitkeep
+
+# Plans are local working files
+**/plans/*
+!**/plans/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/settings.json
+*.swp

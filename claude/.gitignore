@@ -1,0 +1,22 @@
+# Personal Claude overrides (not shared with team)
+CLAUDE.local.md
+
+# MCP server config (may contain tokens)
+.claude/mcp.json
+
+# Session checkpoint (auto-generated, ephemeral)
+.claude/session-breadcrumb.md
+
+# Environment variables
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Work products (generated outputs)
+outputs/
+
+# Dependencies (if applicable)
+node_modules/
